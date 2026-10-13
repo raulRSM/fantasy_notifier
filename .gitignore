@@ -1,0 +1,29 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Variables y secretos
+.env
+.env.*
+!.env.example
+.secrets/
+
+# Tokens y sesión de LaLiga
+tokens.json
+**/tokens.json
+browser-profile/
+**/browser-profile/
+
+# Datos privados y logs
+data/*
+!data/.gitkeep
+*.log
+
+# Editores
+.vscode/
+.idea/
+```
